@@ -6,6 +6,9 @@
 <p > iam vamshi123</p>
 <button onclick="add()">adding</button>
 <button onclick="sub()">sub</button>
+<button onclick="multiflication()">multiflication</button>
+<button onclick="division()">division</button>
+<button onclick="moduless()">moduless</button>
 <script>
 function add(){
 const a=prompt("enter the value of a");
@@ -14,7 +17,7 @@ let c=parseInt(a);
 let d=parseInt(b);
 console.log(c+d); 
 let f=c+d;
-document.write("Sum = " + f);
+document.write("sum = " + f);
 
 }
 
@@ -26,6 +29,36 @@ let d=parseInt(b);
 console.log(c-d); 
 let f=c-d;
 document.write("sub = " + f);
+
+}
+function multiflication(){
+const a=prompt("enter the value of a");
+const b=prompt("enter the value of b");
+let c=parseInt(a);
+let d=parseInt(b);
+console.log(c*d); 
+let f=c*d;
+document.write("multi = " + f);
+
+}
+function division(){
+const a=prompt("enter the value of a");
+const b=prompt("enter the value of b");
+let c=parseInt(a);
+let d=parseInt(b);
+console.log(c/d); 
+let f=c/d;
+document.write("divi = " + f);
+
+}
+function moduless(){
+const a=prompt("enter the value of a");
+const b=prompt("enter the value of b");
+let c=parseInt(a);
+let d=parseInt(b);
+console.log(c%d); 
+let f=c%d;
+document.write("modules = " + f);
 
 }
 
