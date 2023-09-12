@@ -3,11 +3,10 @@
 <h1>'vamshi'</h1>
 </head>
 <body>
-<p > iam vamshi</p>
-<button onclick="add()">Try it</button>
+<p > iam vamshi123</p>
+<button onclick="add()">adding</button>
+<button onclick="sub()">sub</button>
 <script>
-
-
 function add(){
 const a=prompt("enter the value of a");
 const b=prompt("enter the value of b");
@@ -18,6 +17,18 @@ let f=c+d;
 document.write("Sum = " + f);
 
 }
+
+function sub(){
+const a=prompt("enter the value of a");
+const b=prompt("enter the value of b");
+let c=parseInt(a);
+let d=parseInt(b);
+console.log(c-d); 
+let f=c-d;
+document.write("sub = " + f);
+
+}
+
 
 
 
